@@ -1,0 +1,29 @@
+package cn.group4.action;
+
+import org.openqa.selenium.WebDriver;
+
+import cn.group4.page.Product;
+import cn.group4.page.Product_CreatProduct;
+import cn.group4.utils.PageFactory;
+
+public class ProductAction {
+	private static WebDriver driver;
+	private static Product product;
+	
+	public static WebDriver getDriver() {
+		return driver;
+	}
+	
+	public static void setDriver(WebDriver driver) {
+		ProductAction.driver = driver;
+	}
+	
+	public static Product_CreatProduct  addProduct() throws Exception
+	{
+		MyZoneAction.setDriver(driver);
+		product = MyZoneAction.intoProduct();
+		product.clickOnbtnAddProduct();
+		return (Product_CreatProduct) PageFactory.getPage(Product_CreatProduct.class, getDriver());
+	}
+
+}

@@ -1,0 +1,62 @@
+package cn.group4.page;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import cn.group4.utils.BasePage;
+import cn.group4.utils.Locator;
+
+public class Product_Req extends BasePage{
+	
+	Locator btnAddRequirement = new Locator("btnAddRequirement");
+	Locator btnNotClose = new Locator("btnNotClose");
+	Locator btnClose = new Locator("btnClose");
+	Locator selcCloseReason = new Locator("selcCloseReason");
+	Locator iptNote = new Locator("iptNote");
+	Locator btnSave = new Locator("btnSave");
+	Locator divNone = new Locator("divNone");
+	
+
+	public Product_Req(WebDriver driver) throws Exception {
+		super(driver);
+	}
+	
+	public void clickOnbtnAddRequirement() throws Exception
+	{
+		click(btnAddRequirement);
+	}
+	
+	public void clickOnbtnNotClose() throws Exception
+	{
+		click(btnNotClose);
+	}
+	
+	public void clickOnbtnClose() throws Exception
+	{
+		click(btnClose);
+	}
+	public void clickOnselcCloseReason() throws Exception
+	{
+		click(selcCloseReason);
+	}
+	
+	public void selcCloseReason(String closereason) throws Exception
+	{	
+		makeDisplayToBlock(divNone);
+//		Select select = new Select(findElement(driver, selcCloseReason));     
+//		select.selectByVisibleText(closereason);  
+		select(selcCloseReason, closereason);
+	}
+	
+	public void typeToiptNote(String note) throws Exception
+	{
+		type(iptNote, note);
+	}
+	
+	public void clickOnbtnSave() throws Exception
+	{
+		click(btnSave);
+	}
+
+}

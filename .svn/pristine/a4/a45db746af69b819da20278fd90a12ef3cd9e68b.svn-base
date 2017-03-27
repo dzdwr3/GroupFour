@@ -1,0 +1,64 @@
+﻿第四组开发文档
+
+一、框架命名规范
+	（1）包名要求：
+		cn.group4.action
+		cn.group4.page
+		cn.group4.utils
+		cn.group4.tests
+
+        （2）类名命名要求：
+		cn.group4.action包下的类命名
+			1.以对应page类名开头以Action结尾，单词首字母大写
+			如MyZoneAction.java  //MyZone为page里的类，后接Action
+		cn.group4. page包下的类命名
+			1.使用页面名称的英文、单词首字母大写
+			如MyZone.java
+			2.子功能模块下的子页面用下滑线连接
+			如：Product_CreatProduct.java
+		cn.group4. utils包下的类命名
+			1.根据工具英文命名
+		cn.group4.tests包下的类命名
+			1.以对应模块页面类名开头,后接Action
+			2.如：Product_ReqTest
+		
+
+	（3）对象命名规则
+		一般是页面元素
+		1.	可点击的按钮元素
+			前缀 btn + 含义 AddProduct 		//btn为button的缩写
+			如：btnAddProduct	
+		2.	可输入值的输入框元素
+				   前缀 ipt + 含义 ProductName	//ipt为input的缩写 
+			如：iptProductName
+		页面类对象
+			根据页面类命名，首字母小写：
+			如Product product;
+
+	（4）方法名命名规则
+		首字母小写，通过含义命名，其他要求如下
+		1、	元素操作的方法命名
+			a)	输入值 
+			前缀typeTo + 元素名iptProductName  
+			即方法名为typeToiptProductName(String values);
+			b)	点击操作
+			前缀clickOn + 元素名btnLoginButton
+			即方法名为 clickOnbtnLoginButton
+		2、	业务方法命名
+		3、	测试类方法命名
+			
+		
+二、业务流程类说明
+	产品页面  Product
+		需求子模块 Product_Req
+		动态子模块 Product_Mov
+		计划子模块 Product_Plan
+		发布子模块 Product_Rel
+		路线子模块 Product_Road
+		文档子模块 Product_Doc
+		项目子模块 Product_Prj
+		模块子模块 Product_Mod
+		概况子模块 Product_Gen
+		
+		
+	

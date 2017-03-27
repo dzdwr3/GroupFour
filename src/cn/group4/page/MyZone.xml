@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<!--locator of page map info -->
+	<page pageName="cn.group4.page.MyZone">
+		<!--Locator lists -->
+		<locator name='退出按钮' type="cssSelector" timeOut="3" value="#topnav > a:nth-child(2)">btnSignOut</locator>
+		<locator type="cssSelector" timeOut="3" value="#userMenu a">profile</locator>
+		<locator type="cssSelector" timeOut="3" value="a[href*='/zentao/my-profile.html?onlybody=yes']">myMainPage</locator>
+		<locator type="cssSelector" timeOut="3" value="a[href*='/zentao/product/']">btnProduct</locator>
+		<locator type="cssSelector" timeOut="3" value="a[href='/zentao/doc/']">btnDocument</locator>
+	</page>
+</map>

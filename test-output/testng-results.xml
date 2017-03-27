@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45160" started-at="2017-03-25T10:06:36Z" finished-at="2017-03-25T10:07:21Z">
+    <groups>
+      <group name="Product">
+        <method signature="ProductTest.addProductTest()[pri:0, instance:cn.group4.tests.ProductTest@5ef60048]" name="addProductTest" class="cn.group4.tests.ProductTest"/>
+        <method signature="ProductTest.intoRequirementTest()[pri:0, instance:cn.group4.tests.ProductTest@5ef60048]" name="intoRequirementTest" class="cn.group4.tests.ProductTest"/>
+      </group> <!-- Product -->
+      <group name="Product_Req">
+        <method signature="Product_ReqTest.addrequirement03()[pri:0, instance:cn.group4.tests.Product_ReqTest@21507a04]" name="addrequirement03" class="cn.group4.tests.Product_ReqTest"/>
+        <method signature="Product_ReqTest.addrequirement04()[pri:0, instance:cn.group4.tests.Product_ReqTest@21507a04]" name="addrequirement04" class="cn.group4.tests.Product_ReqTest"/>
+      </group> <!-- Product_Req -->
+    </groups>
+    <test name="ProductTest" duration-ms="18572" started-at="2017-03-25T10:06:36Z" finished-at="2017-03-25T10:06:54Z">
+      <class name="cn.group4.tests.ProductTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:cn.group4.tests.ProductTest@5ef60048]" name="init" is-config="true" duration-ms="2837" started-at="2017-03-25T18:06:36Z" finished-at="2017-03-25T18:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="addProductTest()[pri:0, instance:cn.group4.tests.ProductTest@5ef60048]" name="addProductTest" duration-ms="3069" started-at="2017-03-25T18:06:38Z" finished-at="2017-03-25T18:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductTest -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:cn.group4.tests.ProductTest@5ef60048]" name="stop" is-config="true" duration-ms="3897" started-at="2017-03-25T18:06:41Z" finished-at="2017-03-25T18:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="init()[pri:0, instance:cn.group4.tests.ProductTest@5ef60048]" name="init" is-config="true" duration-ms="2205" started-at="2017-03-25T18:06:45Z" finished-at="2017-03-25T18:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="intoRequirementTest()[pri:0, instance:cn.group4.tests.ProductTest@5ef60048]" name="intoRequirementTest" duration-ms="2793" started-at="2017-03-25T18:06:48Z" finished-at="2017-03-25T18:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intoRequirementTest -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:cn.group4.tests.ProductTest@5ef60048]" name="stop" is-config="true" duration-ms="3747" started-at="2017-03-25T18:06:50Z" finished-at="2017-03-25T18:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- cn.group4.tests.ProductTest -->
+    </test> <!-- ProductTest -->
+    <test name="Product_ReqTest" duration-ms="26561" started-at="2017-03-25T10:06:54Z" finished-at="2017-03-25T10:07:21Z">
+      <class name="cn.group4.tests.Product_ReqTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:cn.group4.tests.Product_ReqTest@21507a04]" name="init" is-config="true" duration-ms="2509" started-at="2017-03-25T18:06:54Z" finished-at="2017-03-25T18:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="addrequirement03()[pri:0, instance:cn.group4.tests.Product_ReqTest@21507a04]" name="addrequirement03" duration-ms="5035" started-at="2017-03-25T18:06:57Z" finished-at="2017-03-25T18:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addrequirement03 -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:cn.group4.tests.Product_ReqTest@21507a04]" name="stop" is-config="true" duration-ms="3767" started-at="2017-03-25T18:07:02Z" finished-at="2017-03-25T18:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="init()[pri:0, instance:cn.group4.tests.Product_ReqTest@21507a04]" name="init" is-config="true" duration-ms="2263" started-at="2017-03-25T18:07:05Z" finished-at="2017-03-25T18:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="addrequirement04()[pri:0, instance:cn.group4.tests.Product_ReqTest@21507a04]" name="addrequirement04" duration-ms="9230" started-at="2017-03-25T18:07:08Z" finished-at="2017-03-25T18:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addrequirement04 -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:cn.group4.tests.Product_ReqTest@21507a04]" name="stop" is-config="true" duration-ms="3747" started-at="2017-03-25T18:07:17Z" finished-at="2017-03-25T18:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- cn.group4.tests.Product_ReqTest -->
+    </test> <!-- Product_ReqTest -->
+  </suite> <!-- Suite -->
+</testng-results>

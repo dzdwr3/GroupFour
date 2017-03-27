@@ -1,0 +1,41 @@
+package cn.group4.action;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
+import cn.group4.page.ZentaoHomePage;
+import cn.group4.page.ZentaoLoginPage;
+import cn.group4.utils.PageFactory;
+
+
+public class ZentaoLogin {
+	private static WebDriver driver;
+
+	public static WebDriver getDriver() {
+		return driver;
+	}
+	
+	static ZentaoLoginPage zentaologinPage;
+	
+	public static ZentaoHomePage login(String name, String password)
+			throws Exception {
+		zentaologinPage = new ZentaoLoginPage(getDriver());
+		zentaologinPage.waitForPageLoad();
+		zentaologinPage.typeusername(name);;
+		zentaologinPage.typePassword(password);
+		zentaologinPage.clickOnLoginButton();
+		Assert.assertTrue(zentaologinPage.isPrestentProfile(), "login failed");
+
+		return (ZentaoHomePage) PageFactory.getPage(ZentaoHomePage.class, getDriver());
+	}
+	
+	public static ZentaoHomePage login() throws Exception {
+		return ZentaoLogin.login("admin", "123456");
+	}
+
+	public static void setDriver(WebDriver driver) {
+		ZentaoLogin.driver = driver;
+	}
+	
+
+}

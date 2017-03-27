@@ -1,0 +1,46 @@
+﻿第四组开发文档
+
+一、框架命名规范
+	（1）包名要求：
+		cn.group4.action
+		cn.group4.page
+		cn.group4.utils
+		cn.group4.tests
+
+        （2）类名命名要求：
+		cn.group4.action包下的类命名
+			1.以对应page类名开头以Action结尾，单词首字母大写
+			如MyZoneAction.java  //MyZone为page里的类，后接Action
+		cn.group4. page包下的类命名
+			1.使用页面名称的英文、单词首字母大写
+			如MyZone.java
+			2.子功能模块下的子页面用下滑线连接
+			如：Product_CreatProduct.java
+		cn.group4. utils包下的类命名
+			1.根据工具英文命名
+		cn.group4.tests包下的类命名
+		
+
+	（3）对象命名规则
+		一般是页面元素
+		1.	可点击的按钮元素
+			前缀 btn + 含义 AddProduct 		//btn为button的缩写
+			如：btnAddProduct	
+		2.	可输入值的输入框元素
+				   前缀 ipt + 含义 ProductName	//ipt为input的缩写 
+			如：iptProductName
+		3.	页面类对象
+			根据页面类命名，首字母小写：
+			如Product product;
+
+	（4）方法名命名规则
+		首字母小写，通过含义命名，其他要求如下
+		1、	元素操作的方法命名
+			a)	输入值 
+			前缀typeTo + 元素名iptProductName  
+			即方法名为typeToiptProductName(String values);
+			b)	点击操作
+			前缀clickOn + 元素名btnLoginButton
+			即方法名为 clickOnbtnLoginButton
+		2、	业务方法命名
+		3、	测试类方法命名

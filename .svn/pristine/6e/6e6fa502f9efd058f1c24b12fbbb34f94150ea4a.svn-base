@@ -1,0 +1,38 @@
+package cn.group4.action;
+
+import org.openqa.selenium.WebDriver;
+import org.python.antlr.PythonParser.return_stmt_return;
+
+import cn.group4.page.MyZone;
+import cn.group4.page.Product;
+import cn.group4.utils.PageFactory;
+
+public class MyZoneAction {
+	private static WebDriver driver;
+	private static MyZone myZone;
+	
+	public static WebDriver getDriver() {
+		return driver;
+	}
+	
+	public static void setDriver(WebDriver driver) {
+		MyZoneAction.driver = driver;
+	}
+
+	
+	public static MyZone viewMyProfile() throws Exception {
+
+		LoginPageAction.setDriver(driver);
+		myZone = LoginPageAction.login();
+		myZone.clickOnMainPage();
+		return myZone;
+	}
+	
+	public static Product intoProduct() throws Exception
+	{
+		LoginPageAction.setDriver(driver);
+		myZone = LoginPageAction.login();
+		myZone.clickOnbtnProduct();
+		return (Product) PageFactory.getPage(Product.class, getDriver());
+	}
+}

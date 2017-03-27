@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<!--locator of page map info -->
+	<page pageName="cn.group4.page.Product">
+		<!--Locator lists -->
+		<locator type="cssSelector" timeOut="3" value="a[href='/zentao/product-create.html']">btnAddProduct</locator>
+		<locator type="cssSelector" timeOut="3" value="li[data-id='story'] a">btnRequirement</locator>
+	</page>
+</map>

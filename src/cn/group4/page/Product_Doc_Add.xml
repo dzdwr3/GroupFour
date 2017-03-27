@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<!--locator of page map info -->
+	<page pageName="cn.group4.page.Product_Doc_Add">
+		<!--Locator lists -->
+		<locator name="输入文档标题" type="cssSelector" timeOut="3" value="#title">iptDocTitle</locator>
+		<locator name="保存按钮" type="cssSelector" timeOut="3" value="#submit">btnSaveDoc</locator>
+	</page>
+</map>

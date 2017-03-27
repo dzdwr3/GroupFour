@@ -1,0 +1,37 @@
+package cn.group4.page;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+
+import cn.group4.utils.BasePage;
+import cn.group4.utils.Locator;
+
+public class MyZone extends BasePage{
+
+
+	private Locator profile=new Locator("profile");
+	private Locator myMainPage= new Locator("myMainPage");
+	private Locator btnProduct = new Locator("btnProduct");
+	
+	
+	public MyZone(WebDriver driver) throws Exception {
+		super(driver);
+	}
+
+	public void clickOnMyProfile() throws Exception
+	{
+		click(profile);
+	}
+	public void clickOnbtnProduct() throws Exception
+	{
+		click(btnProduct);
+	}
+	
+	public void clickOnMainPage() throws Exception
+	{
+		clickOnMyProfile();
+		click(myMainPage);
+	}
+
+}

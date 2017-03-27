@@ -1,0 +1,50 @@
+2017-03-21 16:43:15.689 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.ConfigUtils: Get the config file: F:\EclipseWorkspace\GroupFour\config.properties
+2017-03-21 16:43:15.691 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.DriverFactory: chrome driver path is D:\program\jdk-8u101\bin\chromedriver.exe 
+2017-03-21 16:43:18.841 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.DriverFactory: Create ChromeDrive 
+2017-03-21 16:43:18.909 INFO  cn.group4.utils.Log 25 info - cn.group4.tests.ZentaoTest: Start WebDriver
+2017-03-21 16:43:18.920 DEBUG cn.group4.utils.Log 33 debug - cn.group4.page.ZentaoLoginPage: cn.group4.page.ZentaoLoginPage
+2017-03-21 16:43:18.921 INFO  cn.group4.utils.Log 25 info - cn.group4.page.ZentaoLoginPage: F:\EclipseWorkspace\GroupFour
+2017-03-21 16:43:18.921 INFO  cn.group4.utils.Log 25 info - cn.group4.page.ZentaoLoginPage: F:\EclipseWorkspace\GroupFour\src\cn\group4\page\ZentaoLoginPage.xml
+2017-03-21 16:43:18.922 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: cn.group4.page.ZentaoLoginPage
+2017-03-21 16:43:18.974 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: page Info is:cn.group4.page.ZentaoLoginPage
+2017-03-21 16:43:18.975 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-21 16:43:18.975 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-21 16:43:18.976 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator value #account
+2017-03-21 16:43:18.978 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: locator Name is username
+2017-03-21 16:43:18.978 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-21 16:43:18.979 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-21 16:43:18.979 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator value input[name='password']
+2017-03-21 16:43:18.979 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: locator Name is password
+2017-03-21 16:43:18.980 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-21 16:43:18.980 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-21 16:43:18.980 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator value #submit
+2017-03-21 16:43:18.981 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: locator Name is loginButton
+2017-03-21 16:43:18.981 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-21 16:43:18.981 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-21 16:43:18.981 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator value #userMenu a
+2017-03-21 16:43:18.982 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: locator Name is profile
+2017-03-21 16:43:19.958 DEBUG cn.group4.utils.Log 33 debug - cn.group4.page.ZentaoLoginPage: find element By cssSelector
+2017-03-21 16:43:19.993 INFO  cn.group4.utils.Log 25 info - cn.group4.page.ZentaoLoginPage: type value is:  admin
+2017-03-21 16:43:20.072 DEBUG cn.group4.utils.Log 33 debug - cn.group4.page.ZentaoLoginPage: find element By cssSelector
+2017-03-21 16:43:20.104 INFO  cn.group4.utils.Log 25 info - cn.group4.page.ZentaoLoginPage: type value is:  123456
+2017-03-21 16:43:20.182 DEBUG cn.group4.utils.Log 33 debug - cn.group4.page.ZentaoLoginPage: find element By cssSelector
+2017-03-21 16:43:20.217 INFO  cn.group4.utils.Log 25 info - cn.group4.page.ZentaoLoginPage: click button
+2017-03-21 16:43:21.587 DEBUG cn.group4.utils.Log 33 debug - cn.group4.page.ZentaoLoginPage: find element By cssSelector
+2017-03-21 16:43:21.661 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.PageFactory: page name is cn.group4.page.ZentaoHomePage
+2017-03-21 16:43:21.662 DEBUG cn.group4.utils.Log 33 debug - cn.group4.page.ZentaoHomePage: cn.group4.page.ZentaoHomePage
+2017-03-21 16:43:21.662 INFO  cn.group4.utils.Log 25 info - cn.group4.page.ZentaoHomePage: F:\EclipseWorkspace\GroupFour
+2017-03-21 16:43:21.662 INFO  cn.group4.utils.Log 25 info - cn.group4.page.ZentaoHomePage: F:\EclipseWorkspace\GroupFour\src\cn\group4\page\ZentaoHomePage.xml
+2017-03-21 16:43:21.663 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: cn.group4.page.ZentaoHomePage
+2017-03-21 16:43:21.664 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: page Info is:cn.group4.page.ZentaoHomePage
+2017-03-21 16:43:21.665 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-21 16:43:21.677 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-21 16:43:21.678 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator value #userMenu a
+2017-03-21 16:43:21.678 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: locator Name is profile
+2017-03-21 16:43:21.679 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-21 16:43:21.681 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-21 16:43:21.681 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: get locator value a[href='/zentao/my-profile.html?onlybody=yes']
+2017-03-21 16:43:21.682 INFO  cn.group4.utils.Log 25 info - cn.group4.utils.xmlUtils: locator Name is myMainPage
+2017-03-21 16:43:21.682 DEBUG cn.group4.utils.Log 33 debug - cn.group4.page.ZentaoHomePage: find element By cssSelector
+2017-03-21 16:43:21.696 INFO  cn.group4.utils.Log 25 info - cn.group4.page.ZentaoHomePage: click button
+2017-03-21 16:43:21.778 DEBUG cn.group4.utils.Log 33 debug - cn.group4.page.ZentaoHomePage: find element By cssSelector
+2017-03-21 16:43:21.824 INFO  cn.group4.utils.Log 25 info - cn.group4.page.ZentaoHomePage: click button

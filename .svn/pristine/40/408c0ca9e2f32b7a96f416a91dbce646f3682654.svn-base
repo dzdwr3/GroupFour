@@ -1,0 +1,39 @@
+package cn.group4.page;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+
+import cn.group4.utils.BasePage;
+import cn.group4.utils.Locator;
+
+public class CreateReleasePage extends BasePage{
+
+	Locator btnAddRelease = new Locator("btnAddRelease"); 
+	Locator iptReleaseTitle = new Locator("iptReleaseTitle");
+	Locator btnSave = new Locator("btnSave");
+	
+	public  CreateReleasePage(WebDriver driver) throws Exception {
+		super(driver);
+	}
+
+	public void clickOnbtnAddRelease () throws Exception
+	{
+		click(btnAddRelease);
+	}
+	
+	public void typeOniptReleaseTitle(String value) throws Exception
+	{
+		type(iptReleaseTitle, value);
+	}
+
+	public void clickOnbtnSave() throws Exception
+	{
+		click(btnSave);
+	}
+	
+	public void waitForPageLoad() {
+		super.getDriver().manage().timeouts()
+				.pageLoadTimeout(30, TimeUnit.SECONDS);
+	}
+}

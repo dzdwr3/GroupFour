@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<!--locator of page map info -->
+	<page pageName="cn.group4.page.LoginPage">
+		<!--Locator lists -->
+		<locator type="cssSelector" timeOut="3" value="#account">username</locator>
+		<locator type="cssSelector" timeOut="3" value="input[name='password']">password</locator>
+		<locator type="cssSelector" timeOut="3" value="#submit">loginButton</locator>
+		<locator type="cssSelector" timeOut="3" value="#userMenu a">profile</locator>
+	</page>
+</map>

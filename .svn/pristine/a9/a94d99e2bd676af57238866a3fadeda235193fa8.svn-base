@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<!--locator of page map info -->
+	<page pageName="cn.group4.page.Product_Rel_Add">
+		<!--Locator lists -->
+		<locator type="cssSelector" timeOut="3" value="#name">iptReleaseTitle</locator>
+		<locator type="cssSelector" timeOut="3" value="#submit">btnSaveRel</locator>
+	</page>
+</map>

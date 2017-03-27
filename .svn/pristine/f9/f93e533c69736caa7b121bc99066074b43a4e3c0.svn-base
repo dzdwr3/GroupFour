@@ -1,0 +1,30 @@
+package cn.group4.action;
+
+import org.openqa.selenium.WebDriver;
+
+import cn.group4.page.Product_Release;
+
+public class Product_ReleaseAction {
+
+	private static WebDriver driver;
+	private static Product_Release createReleasePage;
+	
+	public static WebDriver getDriver() {
+		return driver;
+	}
+	public static void setDriver(WebDriver driver) {
+		Product_ReleaseAction.driver = driver;
+	}
+	
+	public static Product_Release addReleaseName(String releaseName) throws Exception {
+		
+		ProductAction.setDriver(driver);
+		createReleasePage = ProductAction.addRelease();
+		createReleasePage.clickOnbtnAddRelease();
+		createReleasePage.typeOniptReleaseTitle(releaseName);
+		createReleasePage.clickOnbtnSave();
+		return createReleasePage;
+		
+		
+	}
+}

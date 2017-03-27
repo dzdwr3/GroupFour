@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<!--locator of page map info -->
+	<page pageName="cn.group4.page.Product">
+		<!--Locator lists -->
+		<locator name='退出按钮' type="cssSelector" timeOut="3" value="#topnav > a:nth-child(2)">btnSignOut</locator>
+		<locator name="添加产品" type="cssSelector" timeOut="3" value="li[data-id='create'] a">btnAddProduct</locator>
+		<locator name="需求按钮" type="cssSelector" timeOut="3" value="li[data-id='story'] a">btnRequirement</locator>
+		<locator name="动态按钮" type="cssSelector" timeOut="3" value="li[data-id='dynamic'] a">btnMovement</locator>
+		<locator name="计划按钮" type="cssSelector" timeOut="3" value="li[data-id='plan'] a">btnPlan</locator>	
+		<locator name="发布按钮" type="cssSelector" timeOut="3" value="li[data-id='release'] a">btnRelease</locator>
+		<locator name="路线图按钮" type="cssSelector" timeOut="3" value="li[data-id='roadmap'] a">btnRoadMap</locator>
+		<locator name="文档按钮" type="cssSelector" timeOut="3" value="li[data-id='doc'] a">btnDoc</locator>
+		<locator name="项目按钮" type="cssSelector" timeOut="3" value="li[data-id='project'] a">btnPrj</locator>
+		<locator name="模块按钮" type="cssSelector" timeOut="3" value="li[data-id='module'] a">btnMod</locator>
+		<locator name="概况按钮" type="cssSelector" timeOut="3" value="li[data-id='view'] a">btnGen</locator>
+	</page>
+</map>

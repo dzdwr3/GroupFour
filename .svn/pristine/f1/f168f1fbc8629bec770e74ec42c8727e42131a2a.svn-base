@@ -1,0 +1,51 @@
+package cn.group4.action;
+
+import java.lang.reflect.InvocationTargetException;
+
+import org.openqa.selenium.WebDriver;
+
+import cn.group4.page.Product_Rel;
+import cn.group4.page.Product;
+import cn.group4.page.Product_CreatProduct;
+import cn.group4.page.Product_Rel_Add;
+import cn.group4.page.Product_Req;
+import cn.group4.utils.PageFactory;
+
+public class ProductAction {
+	private static WebDriver driver;
+	private static Product product;
+	
+	public static WebDriver getDriver() {
+		return driver;
+	}
+	
+	public static void setDriver(WebDriver driver) {
+		ProductAction.driver = driver;
+	}
+	
+	//进入产品页面点击创建文档按钮业务流程
+	public static Product_CreatProduct  addProduct() throws Exception
+	{
+		MyZoneAction.setDriver(driver);
+		product = MyZoneAction.intoProduct();
+		product.clickOnbtnAddProduct();
+		return (Product_CreatProduct) PageFactory.getPage(Product_CreatProduct.class, getDriver());
+	}
+	
+	//进入产品页面点击需求按钮业务流程
+	public static Product_Req Requirement() throws Exception{
+		MyZoneAction.setDriver(driver);
+		product = MyZoneAction.intoProduct();
+		product.clickOnbtnRequirement();
+		return (Product_Req) PageFactory.getPage(Product_Req.class, getDriver());
+	}
+	
+	public static Product_Rel addRelease() throws Exception
+	{
+		MyZoneAction.setDriver(driver);
+		product = MyZoneAction.intoProduct();
+		product.clickOnbtnRelease();
+		return (Product_Rel) PageFactory.getPage(Product_Rel.class, getDriver());
+	}
+
+}

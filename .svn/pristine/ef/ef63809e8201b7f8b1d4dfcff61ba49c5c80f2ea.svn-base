@@ -1,0 +1,63 @@
+package cn.group4.tests;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import cn.group4.action.ProductAction;
+import cn.group4.action.Product_CreatProductAction;
+import cn.group4.action.Product_ReqAction;
+import cn.group4.action.Product_Req_AddAction;
+import cn.group4.utils.DriverFactory;
+import cn.group4.utils.UITest;
+
+public class Product_ReqTest extends UITest {
+	WebDriver driver;
+
+	@BeforeClass
+	public void setUp()
+	{
+		this.driver = DriverFactory.getChromeDriver();
+		super.init(driver);
+	}
+
+	@BeforeMethod(alwaysRun = true)
+	public void init() throws Exception {	
+		Product_ReqAction.setDriver(driver);
+		Product_Req_AddAction.setDriver(driver);
+	}
+
+
+	@Test
+	public void addrequirement01() throws Exception {
+		Product_Req_AddAction.addRequirement("需求01");
+	}
+	@Test
+	public void addrequirement02() throws Exception {
+		Product_Req_AddAction.failaddRequirement();
+	}
+	@Test
+	public void addrequirement03() throws Exception {
+		Product_ReqAction.closeReq("已取消");
+	}
+	@Test
+	public void addrequirement04() throws Exception {
+		Product_ReqAction.failCloseReq();
+	}
+	
+	@AfterMethod(alwaysRun = true)
+	public void stop() {
+		ProductAction.signOut();
+	}
+	
+	@AfterClass
+	public void shutDown() throws InterruptedException
+	{
+		super.stop();
+	}
+	
+}
+

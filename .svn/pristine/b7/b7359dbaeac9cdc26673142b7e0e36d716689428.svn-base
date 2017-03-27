@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+	<test name="test"></test>
+	<test name="ProductTest01" verbose="2" preserve-order="true" >
+		<classes>		
+			<class name="cn.group4.tests.SuiteSetting"></class>
+			<class name="cn.group4.tests.ProductTest"></class>
+		</classes>
+	</test> 
+		<listeners>
+		    <listener class-name="cn.group4.utils.TestNGListener" /> 
+	</listeners>
+</suite> 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Product_ReqTest(failed)">
+    <classes>
+      <class name="cn.group4.tests.ProductTest">
+        <methods>
+          <include name="stop"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- cn.group4.tests.ProductTest -->
+      <class name="cn.group4.tests.Product_ReqTest">
+        <methods>
+          <include name="init"/>
+          <include name="addrequirement04"/>
+          <include name="addrequirement03"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- cn.group4.tests.Product_ReqTest -->
+    </classes>
+  </test> <!-- Product_ReqTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

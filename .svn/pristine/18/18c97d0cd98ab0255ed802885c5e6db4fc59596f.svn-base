@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7619" started-at="2017-03-22T12:56:36Z" finished-at="2017-03-22T12:56:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7619" started-at="2017-03-22T12:56:36Z" finished-at="2017-03-22T12:56:44Z">
+      <class name="cn.group4.tests.CreateReleaseTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:cn.group4.tests.CreateReleaseTest@776a6d9b]" name="init" is-config="true" duration-ms="9" started-at="2017-03-22T20:56:36Z" finished-at="2017-03-22T20:56:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="createReleaseTest()[pri:0, instance:cn.group4.tests.CreateReleaseTest@776a6d9b]" name="createReleaseTest" duration-ms="3682" started-at="2017-03-22T20:56:36Z" finished-at="2017-03-22T20:56:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReleaseTest -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:cn.group4.tests.CreateReleaseTest@776a6d9b]" name="stop" is-config="true" duration-ms="3906" started-at="2017-03-22T20:56:40Z" finished-at="2017-03-22T20:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- cn.group4.tests.CreateReleaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

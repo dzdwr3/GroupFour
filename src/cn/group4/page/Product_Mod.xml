@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<!--locator of page map info -->
+	<page pageName="cn.group4.page.Product_Mod">
+		<!--Locator lists -->
+		<locator type="cssSelector" timeOut="3" value="#modules\5b \5d">iptModName</locator>
+		<locator type="cssSelector" timeOut="3" value="#shorts\5b \5d">iptModNick</locator>
+		
+	</page>
+</map>

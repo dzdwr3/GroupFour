@@ -1,0 +1,26 @@
+package cn.group4.action;
+
+import org.openqa.selenium.WebDriver;
+
+import cn.group4.page.ZentaoHomePage;
+
+public class CheckHome {
+	private static WebDriver driver;
+	private static ZentaoHomePage zentaohomePage;
+	
+	public static WebDriver getDriver() {
+		return driver;
+	}
+	
+	public static void setDriver(WebDriver driver) {
+		CheckHome.driver = driver;
+	}
+	
+	public static ZentaoHomePage check() throws Exception {
+
+		ZentaoLogin.setDriver(driver);
+		zentaohomePage = ZentaoLogin.login();
+		zentaohomePage.clickOnMainPage();
+		return zentaohomePage;
+	}
+}

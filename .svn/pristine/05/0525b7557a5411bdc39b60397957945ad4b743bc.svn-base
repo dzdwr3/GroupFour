@@ -1,0 +1,174 @@
+2017-03-24 09:37:52.638 INFO   25 info - cn.group4.utils.ConfigUtils: Get the config file: F:\EclipseWorkspace\GroupFour\config.properties
+2017-03-24 09:37:52.638 INFO   25 info - cn.group4.utils.DriverFactory: chrome driver path is webDriver\chromedriver.exe 
+2017-03-24 09:37:55.390 INFO   25 info - cn.group4.utils.DriverFactory: Create ChromeDrive 
+2017-03-24 09:37:55.390 INFO   25 info - cn.group4.utils.DriverFactory: webDriver\chromedriver.exe 
+2017-03-24 09:37:55.438 INFO   25 info - cn.group4.tests.Product_PlanTest: Start WebDriver
+2017-03-24 09:37:55.454 DEBUG  33 debug - cn.group4.page.LoginPage: cn.group4.page.LoginPage
+2017-03-24 09:37:55.454 INFO   25 info - cn.group4.page.LoginPage: F:\EclipseWorkspace\GroupFour
+2017-03-24 09:37:55.454 INFO   25 info - cn.group4.page.LoginPage: F:\EclipseWorkspace\GroupFour\src\cn\group4\page\LoginPage.xml
+2017-03-24 09:37:55.454 INFO   25 info - cn.group4.utils.xmlUtils: cn.group4.page.LoginPage
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: page Info is:cn.group4.page.LoginPage
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: get locator value #account
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is username
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: get locator value input[name='password']
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is password
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: get locator value #submit
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is loginButton
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: get locator value #userMenu a
+2017-03-24 09:37:55.485 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is profile
+2017-03-24 09:37:56.090 DEBUG  33 debug - cn.group4.page.LoginPage: 1username
+2017-03-24 09:37:56.090 DEBUG  33 debug - cn.group4.page.LoginPage: 2#account
+2017-03-24 09:37:56.090 DEBUG  33 debug - cn.group4.page.LoginPage: find element By cssSelector
+2017-03-24 09:37:56.121 INFO   25 info - cn.group4.page.LoginPage: type value is:  admin
+2017-03-24 09:37:56.173 DEBUG  33 debug - cn.group4.page.LoginPage: 1password
+2017-03-24 09:37:56.174 DEBUG  33 debug - cn.group4.page.LoginPage: 2input[name='password']
+2017-03-24 09:37:56.174 DEBUG  33 debug - cn.group4.page.LoginPage: find element By cssSelector
+2017-03-24 09:37:56.198 INFO   25 info - cn.group4.page.LoginPage: type value is:  123456
+2017-03-24 09:37:56.254 DEBUG  33 debug - cn.group4.page.LoginPage: 1loginButton
+2017-03-24 09:37:56.254 DEBUG  33 debug - cn.group4.page.LoginPage: 2#submit
+2017-03-24 09:37:56.254 DEBUG  33 debug - cn.group4.page.LoginPage: find element By cssSelector
+2017-03-24 09:37:56.277 INFO   25 info - cn.group4.page.LoginPage: click button
+2017-03-24 09:37:56.815 DEBUG  33 debug - cn.group4.page.LoginPage: 1#userMenu a
+2017-03-24 09:37:56.816 DEBUG  33 debug - cn.group4.page.LoginPage: 2#userMenu a
+2017-03-24 09:37:56.816 DEBUG  33 debug - cn.group4.page.LoginPage: find element By cssSelector
+2017-03-24 09:37:56.858 INFO   25 info - cn.group4.utils.PageFactory: page name is cn.group4.page.MyZone
+2017-03-24 09:37:56.858 DEBUG  33 debug - cn.group4.page.MyZone: cn.group4.page.MyZone
+2017-03-24 09:37:56.858 INFO   25 info - cn.group4.page.MyZone: F:\EclipseWorkspace\GroupFour
+2017-03-24 09:37:56.858 INFO   25 info - cn.group4.page.MyZone: F:\EclipseWorkspace\GroupFour\src\cn\group4\page\MyZone.xml
+2017-03-24 09:37:56.858 INFO   25 info - cn.group4.utils.xmlUtils: cn.group4.page.MyZone
+2017-03-24 09:37:56.858 INFO   25 info - cn.group4.utils.xmlUtils: page Info is:cn.group4.page.MyZone
+2017-03-24 09:37:56.858 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:56.858 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:56.858 INFO   25 info - cn.group4.utils.xmlUtils: get locator value #userMenu a
+2017-03-24 09:37:56.858 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is profile
+2017-03-24 09:37:56.873 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:56.873 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:56.873 INFO   25 info - cn.group4.utils.xmlUtils: get locator value a[href*='/zentao/my-profile.html?onlybody=yes']
+2017-03-24 09:37:56.873 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is myMainPage
+2017-03-24 09:37:56.873 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:56.873 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:56.873 INFO   25 info - cn.group4.utils.xmlUtils: get locator value a[href*='/zentao/product/']
+2017-03-24 09:37:56.873 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is btnProduct
+2017-03-24 09:37:56.873 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:56.873 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:56.873 INFO   25 info - cn.group4.utils.xmlUtils: get locator value a[href='/zentao/doc/']
+2017-03-24 09:37:56.873 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is btnDocument
+2017-03-24 09:37:56.873 DEBUG  33 debug - cn.group4.page.MyZone: 1btnProduct
+2017-03-24 09:37:56.873 DEBUG  33 debug - cn.group4.page.MyZone: 2a[href*='/zentao/product/']
+2017-03-24 09:37:56.873 DEBUG  33 debug - cn.group4.page.MyZone: find element By cssSelector
+2017-03-24 09:37:56.909 INFO   25 info - cn.group4.page.MyZone: click button
+2017-03-24 09:37:57.003 INFO   25 info - cn.group4.utils.PageFactory: page name is cn.group4.page.Product
+2017-03-24 09:37:57.004 DEBUG  33 debug - cn.group4.page.Product: cn.group4.page.Product
+2017-03-24 09:37:57.004 INFO   25 info - cn.group4.page.Product: F:\EclipseWorkspace\GroupFour
+2017-03-24 09:37:57.004 INFO   25 info - cn.group4.page.Product: F:\EclipseWorkspace\GroupFour\src\cn\group4\page\Product.xml
+2017-03-24 09:37:57.004 INFO   25 info - cn.group4.utils.xmlUtils: cn.group4.page.Product
+2017-03-24 09:37:57.007 INFO   25 info - cn.group4.utils.xmlUtils: page Info is:cn.group4.page.Product
+2017-03-24 09:37:57.008 INFO   25 info - cn.group4.utils.xmlUtils: get locator value 添加产品
+2017-03-24 09:37:57.009 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:57.009 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:57.009 INFO   25 info - cn.group4.utils.xmlUtils: get locator value li[data-id='create'] a
+2017-03-24 09:37:57.009 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is btnAddProduct
+2017-03-24 09:37:57.010 INFO   25 info - cn.group4.utils.xmlUtils: get locator value 需求按钮
+2017-03-24 09:37:57.010 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:57.010 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:57.011 INFO   25 info - cn.group4.utils.xmlUtils: get locator value li[data-id='story'] a
+2017-03-24 09:37:57.011 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is btnRequirement
+2017-03-24 09:37:57.011 INFO   25 info - cn.group4.utils.xmlUtils: get locator value 动态按钮
+2017-03-24 09:37:57.012 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:57.012 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:57.012 INFO   25 info - cn.group4.utils.xmlUtils: get locator value li[data-id='dynamic'] a
+2017-03-24 09:37:57.013 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is btnMovement
+2017-03-24 09:37:57.013 INFO   25 info - cn.group4.utils.xmlUtils: get locator value 计划按钮
+2017-03-24 09:37:57.013 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:57.014 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:57.014 INFO   25 info - cn.group4.utils.xmlUtils: get locator value li[data-id='plan'] a
+2017-03-24 09:37:57.014 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is btnPlan
+2017-03-24 09:37:57.014 INFO   25 info - cn.group4.utils.xmlUtils: get locator value 发布按钮
+2017-03-24 09:37:57.014 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:57.014 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:57.015 INFO   25 info - cn.group4.utils.xmlUtils: get locator value li[data-id='release'] a
+2017-03-24 09:37:57.015 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is btnRelease
+2017-03-24 09:37:57.015 INFO   25 info - cn.group4.utils.xmlUtils: get locator value 路线图按钮
+2017-03-24 09:37:57.015 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:57.015 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:57.015 INFO   25 info - cn.group4.utils.xmlUtils: get locator value li[data-id='roadmap'] a
+2017-03-24 09:37:57.016 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is btnRoadMap
+2017-03-24 09:37:57.016 INFO   25 info - cn.group4.utils.xmlUtils: get locator value 文档按钮
+2017-03-24 09:37:57.016 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:57.016 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:57.016 INFO   25 info - cn.group4.utils.xmlUtils: get locator value li[data-id='doc'] a
+2017-03-24 09:37:57.017 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is btnDoc
+2017-03-24 09:37:57.017 DEBUG  33 debug - cn.group4.page.Product: 1btnPlan
+2017-03-24 09:37:57.017 DEBUG  33 debug - cn.group4.page.Product: 2li[data-id='plan'] a
+2017-03-24 09:37:57.018 DEBUG  33 debug - cn.group4.page.Product: find element By cssSelector
+2017-03-24 09:37:57.501 INFO   25 info - cn.group4.page.Product: click button
+2017-03-24 09:37:57.816 INFO   25 info - cn.group4.utils.PageFactory: page name is cn.group4.page.Product_Plan
+2017-03-24 09:37:57.816 DEBUG  33 debug - cn.group4.page.Product_Plan: cn.group4.page.Product_Plan
+2017-03-24 09:37:57.816 INFO   25 info - cn.group4.page.Product_Plan: F:\EclipseWorkspace\GroupFour
+2017-03-24 09:37:57.816 INFO   25 info - cn.group4.page.Product_Plan: F:\EclipseWorkspace\GroupFour\src\cn\group4\page\Product_Plan.xml
+2017-03-24 09:37:57.817 INFO   25 info - cn.group4.utils.xmlUtils: cn.group4.page.Product_Plan
+2017-03-24 09:37:57.819 INFO   25 info - cn.group4.utils.xmlUtils: page Info is:cn.group4.page.Product_Plan
+2017-03-24 09:37:57.819 INFO   25 info - cn.group4.utils.xmlUtils: get locator value 创建计划
+2017-03-24 09:37:57.820 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:57.820 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:57.820 INFO   25 info - cn.group4.utils.xmlUtils: get locator value div[id='titlebar'] div.actions a
+2017-03-24 09:37:57.820 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is btnCreatePlan
+2017-03-24 09:37:57.821 DEBUG  33 debug - cn.group4.page.Product_Plan: 1btnCreatePlan
+2017-03-24 09:37:57.821 DEBUG  33 debug - cn.group4.page.Product_Plan: 2div[id='titlebar'] div.actions a
+2017-03-24 09:37:57.821 DEBUG  33 debug - cn.group4.page.Product_Plan: find element By cssSelector
+2017-03-24 09:37:57.852 INFO   25 info - cn.group4.page.Product_Plan: click button
+2017-03-24 09:37:58.307 INFO   25 info - cn.group4.utils.PageFactory: page name is cn.group4.page.Product_Plan_Create
+2017-03-24 09:37:58.308 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: cn.group4.page.Product_Plan_Create
+2017-03-24 09:37:58.308 INFO   25 info - cn.group4.page.Product_Plan_Create: F:\EclipseWorkspace\GroupFour
+2017-03-24 09:37:58.309 INFO   25 info - cn.group4.page.Product_Plan_Create: F:\EclipseWorkspace\GroupFour\src\cn\group4\page\Product_Plan_Create.xml
+2017-03-24 09:37:58.309 INFO   25 info - cn.group4.utils.xmlUtils: cn.group4.page.Product_Plan_Create
+2017-03-24 09:37:58.312 INFO   25 info - cn.group4.utils.xmlUtils: page Info is:cn.group4.page.Product_Plan_Create
+2017-03-24 09:37:58.312 INFO   25 info - cn.group4.utils.xmlUtils: get locator value 计划名称输入框
+2017-03-24 09:37:58.313 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:58.314 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:58.314 INFO   25 info - cn.group4.utils.xmlUtils: get locator value #title
+2017-03-24 09:37:58.314 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is iptPlanName
+2017-03-24 09:37:58.315 INFO   25 info - cn.group4.utils.xmlUtils: get locator value 开始日期输入框
+2017-03-24 09:37:58.315 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:58.315 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:58.316 INFO   25 info - cn.group4.utils.xmlUtils: get locator value #begin
+2017-03-24 09:37:58.316 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is iptBeginTime
+2017-03-24 09:37:58.316 INFO   25 info - cn.group4.utils.xmlUtils: get locator value 结束日期输入框
+2017-03-24 09:37:58.317 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:58.317 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:58.317 INFO   25 info - cn.group4.utils.xmlUtils: get locator value #end
+2017-03-24 09:37:58.317 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is iptEndTime
+2017-03-24 09:37:58.317 INFO   25 info - cn.group4.utils.xmlUtils: get locator value 保存按钮
+2017-03-24 09:37:58.318 INFO   25 info - cn.group4.utils.xmlUtils: get locator type cssSelector
+2017-03-24 09:37:58.318 INFO   25 info - cn.group4.utils.xmlUtils: get locator timeOut 3
+2017-03-24 09:37:58.318 INFO   25 info - cn.group4.utils.xmlUtils: get locator value #submit
+2017-03-24 09:37:58.318 INFO   25 info - cn.group4.utils.xmlUtils: locator Name is btnSaveButton
+2017-03-24 09:37:58.319 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: 1iptPlanName
+2017-03-24 09:37:58.319 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: 2#title
+2017-03-24 09:37:58.319 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: find element By cssSelector
+2017-03-24 09:37:58.346 INFO   25 info - cn.group4.page.Product_Plan_Create: type value is:  计划02
+2017-03-24 09:37:58.413 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: 1iptBeginTime
+2017-03-24 09:37:58.414 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: 2#begin
+2017-03-24 09:37:58.414 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: find element By cssSelector
+2017-03-24 09:37:58.448 INFO   25 info - cn.group4.page.Product_Plan_Create: click button
+2017-03-24 09:37:58.613 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: 1iptBeginTime
+2017-03-24 09:37:58.614 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: 2#begin
+2017-03-24 09:37:58.614 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: find element By cssSelector
+2017-03-24 09:37:58.632 INFO   25 info - cn.group4.page.Product_Plan_Create: type value is:  2017-03-27
+2017-03-24 09:37:58.744 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: 1iptEndTime
+2017-03-24 09:37:58.744 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: 2#end
+2017-03-24 09:37:58.745 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: find element By cssSelector
+2017-03-24 09:37:58.769 INFO   25 info - cn.group4.page.Product_Plan_Create: type value is:  2017-03-21
+2017-03-24 09:37:58.904 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: 1btnSaveButton
+2017-03-24 09:37:58.904 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: 2#submit
+2017-03-24 09:37:58.905 DEBUG  33 debug - cn.group4.page.Product_Plan_Create: find element By cssSelector
+2017-03-24 09:37:58.931 INFO   25 info - cn.group4.page.Product_Plan_Create: click button
+2017-03-24 09:37:59.160 INFO   25 info - cn.group4.tests.Product_PlanTest: Stop WebDriver

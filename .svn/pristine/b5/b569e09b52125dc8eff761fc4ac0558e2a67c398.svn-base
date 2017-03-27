@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<!--locator of page map info -->
+	<page pageName="cn.group4.page.Product_Plan">
+		<!--Locator lists -->
+		<locator name="创建计划" type="cssSelector" timeOut="3" value="a[href='/zentao/productplan-create-6-0.html']">btnCreatePlan</locator>		
+	</page>
+</map>

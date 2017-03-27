@@ -1,0 +1,22 @@
+package cn.group4.page;
+
+import org.openqa.selenium.WebDriver;
+
+import cn.group4.utils.BasePage;
+import cn.group4.utils.Locator;
+
+public class Product_Req extends BasePage{
+	
+	Locator btnAddRequirement = new Locator("btnAddRequirement");
+
+	public Product_Req(WebDriver driver) throws Exception {
+		super(driver);
+	}
+	
+	public void clickOnbtnAddRequirement() throws Exception
+	{
+		click(btnAddRequirement);
+	}
+	
+
+}

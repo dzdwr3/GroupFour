@@ -1,0 +1,49 @@
+package cn.group4.page;
+
+import org.openqa.selenium.WebDriver;
+
+import cn.group4.utils.BasePage;
+import cn.group4.utils.Locator;
+
+public class Product extends BasePage{
+	
+	Locator btnAddProduct = new Locator("btnAddProduct"); 
+	Locator btnRequirement = new Locator("btnRequirement");
+	Locator btnTrends = new Locator("btnTrends");
+	Locator btnRelease = new Locator("btnRelease"); 
+	Locator btnRoadMap = new Locator("btnRoadMap"); 
+	Locator btnDoc = new Locator("btnDoc");
+	//pageFactory类中要调用该有参构造，必须设置为公开
+	public Product(WebDriver driver) throws Exception {
+		super(driver);
+	}
+	
+	public void clickOnbtnAddProduct() throws Exception
+	{
+		click(btnAddProduct);
+	}
+	public void clickOnbtnRequirement() throws Exception
+	{
+		click(btnRequirement);
+	}
+	
+	public void clickOnbtnRelease () throws Exception
+	{
+		click(btnRelease);
+	}
+	
+	public void clickOnbtnRoadMap () throws Exception
+	{
+		click(btnRoadMap);
+	}
+	
+	public void clickOnbtnDoc () throws Exception
+	{
+		click(btnDoc);
+	}
+	
+	
+	
+	
+
+}
